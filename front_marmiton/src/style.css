@@ -7,13 +7,13 @@ body, input, select, textarea, button {
 
 h1 {
   text-align:center;
-  font-size: 60px;
+  font-size: 70px;
   color: red;
 }
 
 h2 {
   text-align:center;
-  font-size: 40px;
+  font-size: 35px;
   color: black;
   margin-top: 70px;
 }
@@ -92,8 +92,18 @@ button:active {
   box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
 }
 
-button.red {
+button.addButton {
   display: block;
   color: red;
   width: 400px;
+}
+
+div.containerRecette {
+  background-color:blanchedalmond;
+  width: 1200px;
+  height: 700px;
+  margin-left: 230px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

@@ -9,6 +9,8 @@
 
   <body>
 
+    <div id="app">
+
       <div class="title">
         <h1>MARMITOP</h1>
     </div>
@@ -17,31 +19,28 @@
       <section class="form_recipe_fields">
         <article class="recipe_fields">
         <label>
-            <input type="nom" placeholder="Nom:"/>
+            <input class="nomrecette" placeholder="Nom:"/>
         </label>
       </article>
       <article class="recipe_fields">
         <label>
-            <input type="lien" placeholder="Lien Image:"/>
+            <input class="lienrecette" placeholder="Lien Image:"/>
         </label>
       </article>
       <article class="recipe_fields">
         <label>
-            <input type="duree" placeholder="Durée:"/>
+            <input class="dureerecette" placeholder="Durée:"/>
         </label>
       </article>
       <article class="recipe_fields">
         <label>
-            <input type="note" placeholder="Note:"/>
+            <input class="noterecette" placeholder="Note:"/>
         </label>
       </article>
     </section>
-        <button class="red" type="button">Ajouter</button>   
+        <button class="addButton" type="button">Ajouter aux Recettes</button>   
     </form>
-
-    <div class="recette">
-        <h2>Mes recettes</h1>
-    </div>
+  </div>
     
     <script type="module" src="/src/main.ts"></script>
   </body>
