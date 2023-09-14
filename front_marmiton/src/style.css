@@ -56,7 +56,6 @@ label {
   flex-direction: column;
   width: 50%;
   margin-top: 15px;
-  justify-content: center;
 }
 
 input {
