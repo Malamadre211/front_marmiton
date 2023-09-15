@@ -98,12 +98,45 @@ button.addButton {
   width: 400px;
 }
 
-div.containerRecette {
-  background-color:blanchedalmond;
-  width: 1200px;
-  height: 700px;
-  margin-left: 230px;
+.containerRecette {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recette {
+  background-color: #EBECF0;
+  border: 3px solid red;
+  border-radius: 30px;
+  width: 900px;
+  height: 300px;
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.nom {
+  font-size: 35px;
+  margin-left: 80px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.duree {
+  font-size: 18px;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.note {
+  font-size: 18px;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.img {
+  width: 400px;
+  height: 300px;
+  border-radius: 0 26px 26px 0;
 }
