@@ -12,7 +12,10 @@ addButton.addEventListener("click", function(event){
 if (nomRecette.value != "" && lienRecette.value != "" && dureeRecette.value != "" && noteRecette.value != "") {
 
   addRecipe(nomRecette.value, lienRecette.value, dureeRecette.value, noteRecette.value);
-
+  nomRecette.value = "";
+  lienRecette.value = "";
+  dureeRecette.value = "";
+  noteRecette.value = "";
 
 }
   createRecipe(nomRecette.value, dureeRecette.value, noteRecette.value, lienRecette.value);
